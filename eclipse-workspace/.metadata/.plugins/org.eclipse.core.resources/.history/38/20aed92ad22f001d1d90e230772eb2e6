@@ -1,0 +1,18 @@
+package com.syntax.class06;
+
+public class LogicalOperReview {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		boolean isHungry=false;
+		boolean fruit=true;
+		boolean tacoTruck=false;
+		if(isHungry||fruit||tacoTruck) {
+			System.out.println("I am good for midnight snacks");
+		} else {
+			System.out.println("I should buy something for midnight snack");
+		}
+	}
+
+}

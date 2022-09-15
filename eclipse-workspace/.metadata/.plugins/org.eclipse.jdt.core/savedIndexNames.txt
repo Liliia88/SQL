@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/liliya.khusainova/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+2752447888.index
+3934134860.index
+1865797976.index

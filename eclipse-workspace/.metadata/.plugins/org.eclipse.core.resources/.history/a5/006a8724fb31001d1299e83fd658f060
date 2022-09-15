@@ -1,0 +1,28 @@
+Loops in Java:
+
+while
+do while
+for
+enhanced for loop/for each loop/advanced for loop
+
+for loop - when we know num of repetitions/iterations 
+in advance
+
+for (initialization, condition, increment/decrement ):
+ code to check
+
+
+
+while vs do while
+
+while checks conditon first -> then executes code
+do while executes code -> then check condition
+
+while(boolean condition) {
+code to repeat;
+}
+
+do{
+code to repeat;
+} while (boolean condition);
+

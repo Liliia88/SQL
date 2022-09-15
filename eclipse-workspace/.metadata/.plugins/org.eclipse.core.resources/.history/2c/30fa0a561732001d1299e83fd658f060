@@ -1,0 +1,33 @@
+package com.syntax.class05;
+
+import java.util.Scanner;
+
+public class ReplitAntOrNot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		  Scanner scanner=new Scanner(System.in);
+		  System.out.print("Please enter two strings");
+		  String word1=scanner.next();
+		  String word2=scanner.next();
+		  System.out.print("Please enter two numbers");
+		  Double int1=scanner.nextDouble();
+		  Double int2=scanner.nextDouble();
+		  String result=null;
+
+		  if ((int1!=int2) && (!word1.equals(word2))){
+		    result="NONE";
+		  } 
+		    else if ((int1==int2) && (word1.equals(word2))) {
+		     result="AND";
+		    
+		  } else if (int1==int2 || word1.equals(word2)) {
+		      result="OR";
+		  }
+		  System.out.println("Your result is "+result);
+		   
+		  scanner.close();
+	}
+
+}

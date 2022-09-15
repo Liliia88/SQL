@@ -1,0 +1,37 @@
+package com.syntax.class08;
+
+import java.util.Scanner;
+
+public class Task4Money {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		Double amount;
+		System.out.println("Enter the item you want to buy");
+		String buyitem=scanner.next();
+		System.out.println("What is the price of "+buyitem);
+		double price = 0;
+		double total = 0;
+		System.out.println("How much money do you have?");
+		
+		do {
+		amount = scanner.nextDouble();
+        total+=amount;
+        
+			  if (total > price) {
+				System.out.println("Here is you change "+(total-price));
+				break;
+			 } else	if (total < price) {
+				System.out.println("You need to add "+(total-amount));
+                total = scanner.nextDouble();
+              }      
+		   }	   while (total != price);
+			
+			System.out.println("Thank you for shopping!");
+			System.out.println("----------------------------");
+			
+	}
+
+}

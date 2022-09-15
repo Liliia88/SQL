@@ -1,0 +1,38 @@
+package com.syntax.class08;
+
+import java.util.Scanner;
+
+public class TaskMoneySecondWayWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scanner = new Scanner(System.in);
+		
+		double price = 10;
+		Double amount;
+		System.out.println("Enter the item you want to buy");
+		String buyitem=scanner.next();
+		
+	
+		System.out.println("How much money do you have?");
+		
+		amount = scanner.nextDouble();
+
+		while (amount != price) {
+			
+			  if (amount > price) {
+				System.out.println("Here is you change "+(amount-price));
+				break;
+			 } else	if (amount < price) {
+				System.out.println("You need to add "+(price-amount));
+                amount = scanner.nextDouble();
+                System.out.println("How much money do you have?");
+              }      
+		 }	  
+			
+			System.out.println("Thank you for shopping!");
+			System.out.println("----------------------------");
+			
+	}
+
+}

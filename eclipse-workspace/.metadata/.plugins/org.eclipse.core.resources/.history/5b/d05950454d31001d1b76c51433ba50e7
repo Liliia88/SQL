@@ -1,0 +1,30 @@
+package com.syntax.class07;
+
+import java.util.Scanner;
+
+public class HomeWork6Coffee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner=new Scanner(System.in);
+		double price=0;
+		
+		
+		System.out.println("Please pay for a coffee 6 dollars");
+		price=scanner.nextDouble(); 
+		String result=null;
+		
+	  while (price!=6); {
+		if (price>6) {
+			System.out.println("You need give less money");
+	    } else if (price<6) {
+	    	System.out.println("You need give more money");
+	    } else if (price==6) {
+	    	System.out.println("Please enjoy your coffee!");
+	    }
+	    }
+	}
+}
+
+

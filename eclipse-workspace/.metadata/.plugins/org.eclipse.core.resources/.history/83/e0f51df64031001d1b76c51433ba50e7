@@ -1,0 +1,22 @@
+package com.syntax.class07;
+
+import java.util.Scanner;
+
+public class HomeWork6Coffee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner=new Scanner(System.in);
+		double price;
+		
+		System.out.println("Please pay for a coffee 6 dollars");
+		price=scanner.nextDouble();
+	   
+	    while(price<=6) {
+		System.out.println("You need give less money");
+		
+	    }
+	}
+
+}

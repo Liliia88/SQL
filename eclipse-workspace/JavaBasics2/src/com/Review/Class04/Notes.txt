@@ -1,0 +1,51 @@
+Type casting:
+-type casting is converting the type of data from one data type to another one.
+We have 2 types of type casting:
+- explicit/narrowing/manual
+-implicit/widening/Automatic
+When we go from a bigger data type to a smaller one it is called Explicit/narrowing/manual
+and when we go from a smaller data type to a larger data type we call it Implicit/widening/
+Automatic.
+ bits
+ 
+-byte(8)
+-short(16)
+-char (16)
+-int (32)
+-long (64)
+-float(32)
+-double (64)
+
+byte->short,char->int->long->float->double
+
+Why we need type casting?
+When we are working in teams we might need to convert data from different data types. When 
+we are working with math sometime we need to get rid of decimal part as we are only interested 
+in the non-decimal part.
+
+What is the syntax?
+Explicit/narrowing/Manual
+
+If statements:
+if else conditions allow us to write programs that can take decision based on some condition 
+and provided data.
+-if condition
+-if else condition
+-nested if else condition
+
+why we should learn about if else condition?
+-when we are solving real life problems, like testing a web site our program needs to 
+make a lot of decisions.
+
+What is the syntax of if else conditions?
+if condition
+
+boolean rich=true;
+if(rich)
+{
+System.out.println("Let's buy a Jet or Island");
+
+
+
+
+

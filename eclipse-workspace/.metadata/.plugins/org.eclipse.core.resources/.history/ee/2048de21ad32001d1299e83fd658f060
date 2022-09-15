@@ -1,0 +1,20 @@
+package com.syntax.class08;
+
+public class HoursNestedLoops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for (int htens=0; htens<=2; htens++) {
+			for (int hones=0; hones<=9; hones++) {
+				for (int mtens=0; mtens<=5; mtens++) {
+					for (int mones=0; mones<=9; mones++) {
+					System.out.println(" "+htens+hones+" : "+mtens+mones);
+				}
+				}
+			}
+		}
+				
+	}
+
+}

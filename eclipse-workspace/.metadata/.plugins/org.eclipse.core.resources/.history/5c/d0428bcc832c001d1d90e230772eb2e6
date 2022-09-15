@@ -1,0 +1,39 @@
+package com.syntax.class06;
+
+import java.util.Scanner;
+
+public class HomeWork1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner(System.in);
+		System.out.println("Please tell me where are you from");
+		
+		String country=in.nextLine();
+		String language;
+		
+		switch(country) {
+		
+		case "Russia":
+			language="Russian";
+			break;
+		case "USA":
+			language="English";
+			break;
+		case "Turkey":
+			language="Turkish";
+			break;
+		case "Spain":
+			language="Spanish";
+			break;
+		case "Brazilia":
+			language="Portuguese";
+			break;
+		default:
+			language="Unknown";
+		    break;
+		}
+		System.out.println("I'm from "+country+" and I speak "+language);
+	}
+
+}

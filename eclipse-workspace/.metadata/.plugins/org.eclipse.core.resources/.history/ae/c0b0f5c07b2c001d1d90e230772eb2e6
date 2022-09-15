@@ -1,0 +1,31 @@
+package com.syntax.class06;
+
+public class Switch2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//matching cases must of same data type as a variable
+		// no dublicate case in switch
+		
+	char choice='Y';
+	String answer;
+	
+	 switch(choice) {
+	 
+	 case 'Y':
+		 answer="Yes";
+		 break;
+	 case 'N':
+		 answer="Yes";
+		 break;
+	 case 'M':
+		 answer="Yes";
+		 break;
+	default:
+		answer="Unknown";
+		break;
+	 } 
+	 System.out.println(answer);
+	
+	
+
